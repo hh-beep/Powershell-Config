@@ -2,8 +2,17 @@
 
 
 
-### Adicionar o arquivo tema na pasta C:\Users\*Nome do Usuario*\AppData\Local\Programs\oh-my-posh\themes
+<p>E preciso adicionar o arquivo tema na pasta C:\Users\*Nome do Usuario*\AppData\Local\Programs\oh-my-posh\themes </p>
 
+<p>Tambem e preciso adicionar no $PROFILE os codigos do arquivo profile</p>
+
+
+## Profile
+
+```
+code $PROFILE /// notepad $PROFILE /// vim $PROFILE  ~>  Abre o Profile
+. $PROFILE  ~> Atualiza o Profile
+```
 
 
 
