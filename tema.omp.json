@@ -1,5 +1,5 @@
-
-chema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
       "alignment": "left",
@@ -91,5 +91,3 @@ chema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes
   "final_space": true,
   "version": 2
 }
-
-
