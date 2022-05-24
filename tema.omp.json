@@ -1,0 +1,95 @@
+
+chema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "background": "#222326",
+          "foreground": "#f2f2f2",
+          "style": "diamond",
+      
+          "template": "\uf120",
+
+          "type": "shell",
+
+          "leading_diamond": "\u256d\u2500\ue0b6"
+        },
+
+
+
+
+        {
+          "background": "#222326",
+          "foreground": "#f2f2f2",
+          "properties": {
+            "style": "folder"
+          },
+          "style": "diamond",
+          "template": " \ue5ff {{ .Path }} ",
+          "type": "path"
+        },
+
+
+
+        {
+          "background": "#222326",
+          "foreground": "#f2f2f2",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "fetch_stash_count": true,
+            "fetch_upstream_icon": true
+          },
+          "style": "powerline",
+          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
+          "type": "git"
+        },
+
+
+
+        {
+          "background": "#222326",
+          "foreground": "#f2f2f2",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b4",
+          
+          "template": "<#fff> \uf64f </>{{ .CurrentDate | date .Format }} ",
+          "type": "time"
+        }
+      ],
+      "type": "prompt"
+    },
+
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#222326",
+          "style": "plain",
+          "template": "\u2570\u2500\u2500",
+          "type": "text"
+        },
+        
+
+        {
+          "foreground": "#f2f2f2",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#42a9ff{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "\ue285 ",
+          "type": "exit"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": true,
+  "version": 2
+}
+
+
