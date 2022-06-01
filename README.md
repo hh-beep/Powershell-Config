@@ -47,7 +47,7 @@ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -Skip
 
 
 
-#### FuzzeFinder
+#### FuzzyFinder
 
 ```
 scoop install fzf
@@ -61,4 +61,11 @@ Install-Module -Name PSFzf -Scope CurrentUser -Force
 
 ```
 Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+```
+
+
+
+#### z ( jump directory )
+```
+Install-Module -Name z -Force
 ```
