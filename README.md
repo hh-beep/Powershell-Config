@@ -1,14 +1,21 @@
 # Meu tema customizado do Oh my Posh e outras coisas do terminal
 
+<br>
+<br>
+
+É preciso adicionar o arquivo ```customTheme.omp.json```  na pasta ```C:\Users\*Nome do Usuario*\AppData\Local\Programs\oh-my-posh\themes```
+
+<br>
+
+Tambem é preciso adicionar no ```$PROFILE``` os codigos do arquivo profile.ps
 
 
-É preciso adicionar o arquivo ```customTheme.omp.json```  na pasta C:\Users\*Nome do Usuario*\AppData\Local\Programs\oh-my-posh\themes
-
-Tambem é preciso adicionar no $PROFILE os codigos do arquivo profile.ps
-
-
+<br>
+<br>
 
 ## Downloads Nescessarios
+
+<br>
 
 #### Profile
 
@@ -58,6 +65,7 @@ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -Skip
 
 ```
 scoop install fzf
+** ou **
 Install-Module -Name PSFzf -Scope CurrentUser -Force
 ```
 
