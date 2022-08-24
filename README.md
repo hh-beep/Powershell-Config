@@ -2,9 +2,9 @@
 
 
 
-<p>É preciso adicionar o arquivo ```customTheme.omp.json```  na pasta C:\Users\*Nome do Usuario*\AppData\Local\Programs\oh-my-posh\themes </p>
+É preciso adicionar o arquivo ```customTheme.omp.json```  na pasta C:\Users\*Nome do Usuario*\AppData\Local\Programs\oh-my-posh\themes
 
-<p>Tambem é preciso adicionar no $PROFILE os codigos do arquivo profile.ps </p>
+Tambem é preciso adicionar no $PROFILE os codigos do arquivo profile.ps
 
 
 
